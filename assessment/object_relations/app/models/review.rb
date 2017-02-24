@@ -12,6 +12,8 @@ class Review
   def self.all
     @@reviews
   end
+  
+#   you already have the customer=, and restaurant method from attr_accessor
 
   def customer=(customer)
     @customer = customer
